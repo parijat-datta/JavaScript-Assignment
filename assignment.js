@@ -137,7 +137,7 @@ function brickCalculator(numberOfFloor) {
 
     //---------------------------------------------------------------------   Answer to Question Number: 4   ------------------------------------------------------------------------//
 
-function tinyFriends(names) {
+function tinyFriend(names) {
     var smallElement = names[0];
 
     //For Bonus mark checking if the array of Names is not Null!
@@ -161,9 +161,9 @@ function tinyFriends(names) {
 //to see output:
 
 var name = ["Jonny", "Ronok", "Kamal", "Jitu", "Nabila", "Sourav"];
-console.log(tinyFriends(name));
+console.log(tinyFriend(name));
 
 //Bonus work: Avoid Blank Array:
 
 var blankName = [];
-console.log(tinyFriends(blankName));
+console.log(tinyFriend(blankName));
